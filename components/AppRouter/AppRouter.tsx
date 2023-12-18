@@ -2,6 +2,7 @@ import Home from "@/app/page";
 import Link from "next/link";
 import React, { FC } from "react";
 
+// All of the routes is defined in this component
 const AppRouter: FC = () => {
   return (
     <div className="text-center">

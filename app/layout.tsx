@@ -21,11 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` bg-slate-900 text-slate-200 ${vazirFont.className}`}>
+        {/* The layout is the template of app that designed using tailwind css grid system */}
         <div className="container mx-auto max-w-full h-screen ">
           <div className="grid grid-cols-12 h-14 overflow-hidden">
             <div className="col-span-2 overflow-hidden bg-slate-800 p-2 pt-3 m-2 rounded-lg text-sm text-center shadow-[0_0_5px_0_rgba(250,250,250,0.8)]">
               logo
             </div>
+            {/* The AppRouter includes all of the routes that used in the app */}
             <div className="col-span-10 bg-slate-800 p-2 m-2 rounded-lg shadow-[0_0_5px_0_rgba(250,250,250,0.8)]">
               <AppRouter />
             </div>
@@ -34,6 +36,7 @@ export default function RootLayout({
             <div className="col-span-2 bg-slate-800 p-2 m-2 rounded-lg text-sm text-center shadow-[0_0_5px_0_rgba(250,250,250,0.8)]">
               goals plan and account
             </div>
+            {/* The children includes all of the contents that display by difference routes */}
             <div className="col-span-10 bg-slate-800 p-2 m-2 rounded-lg text-sm shadow-[0_0_5px_0_rgba(250,250,250,0.8)]">
               <main className="p-2">{children}</main>
             </div>
