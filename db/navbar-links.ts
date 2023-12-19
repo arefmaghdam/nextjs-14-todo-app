@@ -1,32 +1,32 @@
 // recieved navbar links datas from server using RESTful API
-export const navbarLinkArray = [
+export const navbarLink = [
   {
     id: 1,
     linkTitle: "Home",
     linkHref: "/",
   },
   {
-    id: 1,
+    id: 2,
     linkTitle: "Strategic Plan",
     linkHref: "strategic-plan",
   },
   {
-    id: 1,
+    id: 3,
     linkTitle: "Yearly Plan",
     linkHref: "yearly-plan",
   },
   {
-    id: 1,
+    id: 4,
     linkTitle: "Monthly Plan",
     linkHref: "monthly-plan",
   },
   {
-    id: 1,
+    id: 5,
     linkTitle: "Weekly Plan",
     linkHref: "weekly-plan",
   },
   {
-    id: 1,
+    id: 6,
     linkTitle: "Daily Plan",
     linkHref: "daily-plan",
   },

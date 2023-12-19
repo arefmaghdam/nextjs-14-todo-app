@@ -1,12 +1,12 @@
 import React, { FC } from "react";
 import LinkComponent from "../Elements/LinkComponent";
-import { navbarLinkArray } from "@/db/navbar-links";
+import { navbarLink } from "@/db/navbar-links";
 
-// All of the routes is defined in this component
+// All of the routes is defined in AppRouter component
 const AppRouter: FC = () => {
   return (
     <div className="text-center">
-      {navbarLinkArray.map((item) => (
+      {navbarLink.map((item) => (
         <LinkComponent
           key={item.id}
           linkTitle={item.linkTitle}
